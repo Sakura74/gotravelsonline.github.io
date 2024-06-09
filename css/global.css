@@ -1,0 +1,449 @@
+/*
+Author       : Templatehouse_net
+Template Name: Venue Planner - Event and Conference Template
+Version      : 1.0
+
+* ----------------------------------------------------------------------------------------
+
+* 
+
+
+* ----------------------------------------------------------------------------------------
+*/
+
+	html {
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	line-height: 1;
+	font-family: 'PT Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, caption, canvas, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, form, footer, header, hgroup, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, tt, table, tbody, textarea, tfoot, thead, time, tr, th, td, u, ul, var, video {
+	font-family: inherit;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+p{
+	font-size:14px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+figure {
+	margin: 0;
+}
+:focus {
+	outline: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+legend {
+	white-space: normal;
+}
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	max-width: 100%;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button, input {
+	line-height: normal;
+}
+input, textarea {
+	background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0)); /* Removing the inner shadow, rounded corners on iOS inputs */
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	line-height: 1;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+	border: none;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+}
+ input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+ -webkit-appearance: none;
+}
+ button::-moz-focus-inner, input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+ border: 0;
+ padding: 0;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* Repeatable Patterns
+-------------------------------------------------------------- */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins",sans-serif;
+	font-weight: 400;
+	background-color: #fff;
+	color: #646a7c;
+}
+a {
+	color: #e71c37;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover, a:focus, a:visited {
+	color: #e71c37;
+	text-decoration: none;
+	outline: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+ /* unvisited link */
+a:link {
+    color: #e71c37;
+}
+/* visited link */
+a:visited {
+    color: #e71c37;
+}
+/* selected link */
+a:active {
+   color: #e71c37;
+} 
+
+
+
+
+
+
+ul, ol {
+	padding: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+b, strong {
+	font-weight: 900;
+}
+button {
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 24px;
+	background-color: #86bc42;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	font-family: "Poppins",sans-serif;
+	background-color: #ffffff;
+	border: 1px solid #ebebeb;
+	height: 40px;
+	padding-left: 15px;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
+	border: 1px solid #ba2f2f;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+textarea {
+	width: 100%;
+	height: 235px;
+	padding: 30px 30px;
+}
+input[type="checkbox"] {
+	display: inline;
+}
+ textarea:-moz-placeholder, textarea::-moz-placeholder, input:-moz-placeholder, input::-moz-placeholder {
+ color: #b3b7c8;
+ opacity: 1;
+}
+ input:-ms-input-placeholder {
+ color: #b3b7c8;
+}
+ textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+ color: #b3b7c8;
+ opacity: 1;
+}
+/* bootstrap resetting elements */
+.btn {
+	background-image: none;
+}
+textarea, input[type="text"], input[type="submit"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .dropdown-menu, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	-webkit-appearance: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'open sans', sans-serif;
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+/*Background color*/
+
+.white {
+	background:#fff;
+}
+.gray {
+	background:#f6f6f6;
+}
+/*margin css*/
+
+.mt-50 {
+	margin:50px 0 0 0;
+}
+.mb-50 {
+	margin:0 0 50px 0;
+}
+.mt-40 {
+	margin:40px 0 0 0;
+}
+.mb-40 {
+	margin:0 0 40px 0;
+}
+.mt-30 {
+	margin:30px 0 0 0;
+}
+.mb-30 {
+	margin:0 0 30px 0;
+}
+.mt-20 {
+	margin:20px 0 0 0;
+}
+.mb-20 {
+	margin:0 0 20px 0;
+}
+/*padding css*/
+
+.pt-50 {
+	padding:50px 0 0 0;
+}
+.pb-50 {
+	padding:0 0 50px 0;
+}
+.pt-40 {
+	padding:40px 0 0 0;
+}
+.pb-40 {
+	padding:0 0 40px 0;
+}
+.pt-30 {
+	padding:30px 0 0 0;
+}
+.pb-30 {
+	padding:0 0 30px 0;
+}
+.pt-20 {
+	padding:20px 0 0 0;
+}
+.pb-20 {
+	padding:0 0 20px 0;
+}
+.padding-50 {
+	padding:80px 0;
+}
+.padding-40 {
+	padding:40px 0;
+}
+.padding-30 {
+	padding:30px 0;
+}
+
+
+
+
+
+/** Seperators for Headings **/
+
+.seprator {
+	display: inline-block;
+}
+.line_1, .line_2, .line_3, .line_1-1, .line_2-2, .line_3-3 {
+	display: block;
+	height: 1px;
+	background: #dbdbdb;
+	position: relative;
+}
+.line_1 {
+	width: 200px;
+	margin-top: 10px;
+}
+.line_2 {
+	width: 150px;
+	margin-top: 5px;
+}
+.line_3 {
+	width: 100px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.line_4, .line_5, .line_6 {
+	display: block;
+	height: 1px;
+	position: relative;
+}
+.line_4 {
+	width: 200px;
+	margin: 10px auto 0;
+}
+.line_5 {
+	width: 150px;
+	margin: 5px auto 0;
+}
+.line_6 {
+	width: 100px;
+	margin: 5px auto 15px;
+}
+.line_1-1 {
+	width: 200px;
+	left: 0;
+	margin: 10px auto 5px;
+	right: 0;
+	text-align: center;
+}
+.line_2-2 {
+	width: 150px;
+	margin:0 auto 5px;
+	right: 0;
+	text-align: center;
+}
+.line_3-3 {
+	width: 100px;
+	margin:0 auto 25px;
+	right: 0;
+	text-align: center;
+}
+.bottom40 {
+	margin-bottom: 40px;
+}
+.icons-style-05 .line_1-1 {
+	width: 200px;
+	left: 0;
+	margin: 10px 0 5px;
+	right: 0;
+	text-align: left;
+}
+.icons-style-05 .line_2-2 {
+	width: 150px;
+	margin:0 0 5px;
+	right: 0;
+	text-align: left;
+}
+.icons-style-05 .line_3-3 {
+	width: 100px;
+	margin:0 0 25px;
+	right: 0;
+	text-align: left;
+}
+
+h2.title-style01 {
+    text-transform: uppercase !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+	color:#222;
+}
+
+.heading_space {
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

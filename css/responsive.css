@@ -1,0 +1,124 @@
+@media screen and (max-width: 1170px) {
+
+.navigation li.blog-link a {
+    padding: 7px 16px 0 16px;
+
+}
+
+}
+
+@media screen and (max-width: 991px) {
+ .navigation {
+ width: 100%;
+}
+ .navbar {
+ text-align: left;
+ float: left;
+ width: 100%;
+}
+ .navbar-toggler {
+margin: -15px 0 0 0;
+left: 93%;
+}
+ .navigation li {
+ background:#fff;
+ color:#e71c37;
+ padding: 15px 20px;
+}
+ .navigation li a {
+ color:#e71c37;
+}
+.navigation li:hover {
+background:#e71c37;
+color:#fff;
+}
+.navigation li:hover a {
+color:#fff;
+}
+ .navigation li.blog-link a {
+ border-left:none;
+ height: auto;
+ padding: 0;
+}
+ .navigation li.blog-link {
+ padding: 15px 20px;
+}
+ .single-count {
+ border-right: none;
+}
+.team-info {
+ margin: 0 0 20px 0;
+}
+#sponsor-section .owl-nav {
+ display:none;
+}
+ .speker_img {
+ margin: 0 0 30px 0;
+}
+.BannerCountDown .count_down_bg {
+    background: none;
+    padding: 40px 0 0 0;
+}
+.RegistrationBanner .static_banner_details {
+    text-align: center;
+}
+
+.RighRegistration{
+	margin:40px 0 0 0;
+}
+
+.contact-info{
+margin:0 0 20px 0;	
+}
+
+.comingSoon .countDown .single-count {
+    width: 100% !important;
+    margin: 0 0 10px 0 !important;
+}
+
+.dropdown-menu {
+    background: none;
+    border: none;
+}
+.dropdown-menu a{
+	color:#222;
+}
+.navigation > show{
+background: #e71c37 !important;
+color: #fff;	
+}
+
+}
+
+ @media screen and (max-width: 768px) {
+.global_btn {
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+}
+ @media screen and (max-width: 700px) {
+.navbar-toggler {
+margin: -15px 0 0 0;
+left: 90%;
+}
+}
+ @media screen and (max-width: 500px) {
+.navbar-toggler {
+margin: -15px 0 0 0;
+left: 86%;
+}
+}
+ @media screen and (max-width: 480px) {
+.static_banner_details h2 {
+ font-size: 48px;
+}
+.static_banner_details p {
+ max-width: 100%;
+}
+}
+ @media screen and (max-width: 375px) {
+.navbar-toggler {
+margin: -15px 0 0 0;
+left: 83%;
+}
+}
